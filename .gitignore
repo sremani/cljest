@@ -1,0 +1,8 @@
+target/
+.lein-failures
+.lein-repl-history
+.nrepl-port
+*.jar
+*.class
+pom.xml
+pom.xml.asc
