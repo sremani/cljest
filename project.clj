@@ -11,5 +11,6 @@
                  [org.clojure/tools.cli "1.1.230"]]
   :deploy-repositories [["clojars" {:url "https://repo.clojars.org"
                                      :username :env/CLOJARS_USERNAME
-                                     :password :env/CLOJARS_PASSWORD}]]
+                                     :password :env/CLOJARS_PASSWORD
+                                     :sign-releases false}]]
   :profiles {:dev {:dependencies [[org.clojure/test.check "1.1.1"]]}})
